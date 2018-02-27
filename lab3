@@ -7,13 +7,14 @@
    date +'%r'
 
 3) Use Unique with all possible options
-  
+  uniq-d
+  uniq-c
+  uniq-u
     
-
 
 4) Print number of lines for ls -l command
 
-  
+  ls-l/wc
 
 
 5) Display USN from 7-14 along with other fields
@@ -30,4 +31,4 @@
 
 7) Replace NAME with student name
 
-  
+  cut -d , -f h filename.csv | head -n 1 / tr ["name"] ["stud"]
